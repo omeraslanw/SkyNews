@@ -68,7 +68,12 @@
 
 ### Çalıştırma
 
-Projeyi derleyip çalıştırmak için projenin kök dizininde aşağıdaki komutu çalıştırın:
+1) **Bağımlılıkları yükleyin ve projeyi derleyin:**
+```sh
+mvn clean install
+```
+
+2) **Projeyi çalıştırmak için projenin kök dizininde aşağıdaki komutu çalıştırın:**
 ```sh
 mvn spring-boot:run
-
+```
